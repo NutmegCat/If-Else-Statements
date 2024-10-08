@@ -18,7 +18,7 @@ p.YDataSource = 'y2';
 % Start recording time
 tic;
 % Loop nearly 100 times. (Modify so that it finishes at 30)
-for t = 3:30 % (HINT: change the 100 to be 30)
+for t = 3:100 % (HINT: change the 100 to be 30)
     % Set new x and y values
     x2(t) = t; % loop iteration
     y2(t) = toc; % time taken
