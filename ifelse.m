@@ -1,14 +1,15 @@
-answer = questdlg('Would you like a dessert?', ...
+answer = questdlg('Would you like a doughnut?', ...
     'Dessert Menu', ...
-    "Ice cream","Cake","No thank you","No thank you");
+    "Plain","Chocolate","Raspberry", "Raspberry");
+
 % Handle response
-if (answer == "Ice cream")
-    disp([answer ' coming right up.'])
+if (answer == "Plain")
+    disp([answer ' ... Yum'])
     dessert = 1;
-elseif (answer == "Cake")
-    disp([answer ' coming right up.'])
+elseif (answer == "Chocolate")
+    disp([answer ', Great!'])
     dessert = 2;
 else
-    disp('I''ll bring you your cheque.')
+    disp([answer ', OK!'])
     dessert = 0;
 end
