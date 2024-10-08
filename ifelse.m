@@ -1,7 +1,6 @@
 answer = questdlg('Would you like a dessert?', ...
     'Dessert Menu', ...
-    "Ice cream","Cake","No thank you","No thank
-you");
+    "Ice cream","Cake","No thank you","No thank you");
 % Handle response
 switch answer
     case "Ice cream"
